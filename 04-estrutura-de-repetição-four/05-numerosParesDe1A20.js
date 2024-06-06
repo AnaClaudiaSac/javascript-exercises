@@ -22,7 +22,7 @@
 //  i == 4
 //  4 % (2) == 0  === par, imprime
 
-//Números pares impressos com a condiçao if() e usando % (modulo) = 0 para identificr o par
+//Números pares impressos com a condiçao if() e usando % Resto da divião (modulo) = 0 para identificr o par
 
 function printEvenNumbers() {
   for (let i = 1; i <= 20; i++) {
