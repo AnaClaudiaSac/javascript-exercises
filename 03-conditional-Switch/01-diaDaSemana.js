@@ -26,22 +26,24 @@ function dayOfWeek(day) {
     case 7:
       result = "Sábado";
       break;
-    default:
+    case 8:
+      result = "Dia Inválido";
       break;
   }
 
   return result;
-  
 }
 
 console.log(dayOfWeek(1));
 console.log(dayOfWeek(4));
 console.log(dayOfWeek(6));
 console.log(dayOfWeek(7));
+console.log(dayOfWeek(8));
 
 ///Output:
-
 // Domingo
 // Quarta-feira
 // Sexta-feira
 // Sábado
+// Dia Inválido
+

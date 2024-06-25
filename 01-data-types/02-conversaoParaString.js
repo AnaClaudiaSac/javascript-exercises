@@ -19,11 +19,11 @@ console.log(convertToString(undefined))
 console.log(convertToString({key:'valor'}))
 console.log(convertToString([1, 2, 3]))
 
-//Resposta:
+//Output:
 
 // 123
 // true
 // null
 // undefined
-// [object Object]
-// 1,2,3
+// {"key":"valor"}
+// [1,2,3]

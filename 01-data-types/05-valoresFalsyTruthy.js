@@ -3,7 +3,7 @@
 // Truthy
 // Em JavaScript, um valor truthy é um valor que se traduz em verdadeiro quando avaliado em um contexto Booleano. Todos os valores são truthy a menos que eles sejam definidos como falsy (ou seja., exceto para false, 0, "", null, undefined, e NaN).
 
- function isTruthy(value) { 
+function isTruthy(value) { 
   return !!value
 }
 
@@ -19,3 +19,18 @@ console.log(isTruthy(NaN))
 console.log(isTruthy([]))    
 console.log(isTruthy({}))
 console.log(isTruthy(Infinity))     
+
+
+//Output:
+// true
+// false
+// true05 
+// false
+// true
+// false
+// false
+// false
+// false
+// true
+// true
+// true
