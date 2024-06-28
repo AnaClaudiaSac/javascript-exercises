@@ -24,7 +24,7 @@ console.log(isTruthy(Infinity))
 //Output:
 // true
 // false
-// true05 
+// true 
 // false
 // true
 // false
